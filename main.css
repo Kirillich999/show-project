@@ -1,0 +1,336 @@
+* {
+box-sizing: border-box;
+    font-family: "oxygen" sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.hello-page {
+background: linear-gradient(118.98deg, #ED4690 -2.11%, #5522CC 63.58%);
+padding: 25px 200px 100px 200px;
+
+
+}
+
+/* .backround-page {
+    background-image: url(./img/people.png);
+    opacity: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+} */
+
+.header {
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+
+.header-title {
+    font-family: oxygen;
+font-size: 28.5px;
+font-weight: 800;
+line-height: 34.71px;
+text-align: left;
+
+}
+.header-nav ul {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+
+}
+
+.header-nav {
+    display: flex;
+    column-gap: 40px;
+    margin-left: 500px;
+}
+
+
+.header-nav__link {
+    font-family: oxygen;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+text-align: left;
+
+}
+
+
+.header-button {
+    padding: 10px;
+
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+text-align: left;
+border-radius: 5px;
+border: 2px solid white;
+color: white;
+background: linear-gradient(118.98deg, #ED4690 -2.11%, #5522CC 63.58%);
+cursor: pointer;
+
+}
+
+
+.show {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    
+}
+
+.show-img {
+    margin-left: -100px;
+    margin-top: 30px;
+}
+.show-inform {
+    margin-top: 100px;
+}
+
+
+.show-inform__title {
+    font-family: oxygen;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.72px;
+text-align: left;
+color: white;
+width: 443px;
+
+}
+
+.show-inform__text {
+    
+font-size: 18px;
+font-weight: 400;
+line-height: 23.4px;
+text-align: left;
+color: white;
+width: 410px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.show-button {
+    display: flex;
+    column-gap: 20px;
+    
+}
+
+.show-inform__button {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+color: white;
+width: 182px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background: linear-gradient(118.98deg, #ED4690 -2.11%, #5522CC 63.58%);
+    
+     
+}
+
+.show-inform__button:hover {
+    background: rgba(255, 0, 212, 0.752);
+    border: 2px solid rgba(255, 0, 212, 0.752);
+    cursor: pointer;
+    transition: 2s;
+   
+}
+
+.show__img-vector {
+    color: blue;
+    position: relative;
+    left: 1100px;
+    bottom: 400px;
+}
+
+
+.identific {
+    position: absolute;
+    width: 70%;
+    left: 120px;
+    /* bottom: -100px; */
+    
+}
+
+
+.identific-form {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 50px;
+    
+    padding: 40px;
+    border-radius: 20px;
+    background-color:  #242565;
+    border: none;
+}
+
+.identific-label {
+    display: grid;
+   
+}
+
+.identific-label input {
+    margin-top: 20px;
+}
+
+.identific-label__text {
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.83px;
+text-align: left;
+color: #FFFFFF;
+;
+
+}
+
+.identific-label__box {
+    background-color:  #242565;
+    border: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+/* 2секция */
+
+.widget {
+    padding: 150px 150px 50px 150px ;
+}
+
+.widget-main {
+    display: flex;
+    column-gap: 350px;
+    
+}
+
+.widget-main__title {
+    font-family: oxygen;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.72px;
+text-align: left;
+
+}
+
+.widget-block {
+display: flex;
+column-gap: 10px;
+}
+
+.widget-option {
+    border: 2px ;
+    background-color: #F2F4FF;
+    border-radius: 30px ;
+    padding: 20px 40px;
+}
+
+.widget-option__text {
+    font-family: DM Sans;
+font-size: 14px;
+font-weight: 500;
+line-height: 18.23px;
+text-align: left;
+
+}
+
+
+.window {
+    display: flex;
+    margin-top: 70px;
+    column-gap: 40px;
+
+    
+}
+
+.wondow-block {
+    border: 2px solid rgba(119, 115, 170, 0.1) ;
+    border-radius: 15px ;
+    padding-bottom: 20px;
+   
+   
+    
+}
+
+.window-text {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns:100px 230px ;
+    margin-top: 10px;
+}
+
+.window-date {
+    font-family: oxygen;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 37.01px;
+    text-align: left;
+    display: grid;
+    margin-left: 10px;
+    
+}
+
+.window-date span {
+    font-family: oxygen;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37.01px;
+    text-align: left; 
+    color: #3D37F1;
+    
+}
+
+
+.window-infor {
+    font-family: oxygen;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+width: 240px;
+
+
+
+}
+
+.window-desc {
+    font-family: oxygen;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+grid-row: 2/3;
+grid-column: 2/3;
+margin-top: 10px;
+
+
+
+}
+
+.window-button {
+    padding: 20px 40px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: oxygen;
+    color:blue;
+    font-size: 20px;
+    margin-left: 35%;
+    margin-top: 80px;
+}
