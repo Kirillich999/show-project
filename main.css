@@ -210,7 +210,7 @@ color: #FFFFFF;
 /* 2секция */
 
 .widget {
-    padding: 150px 150px 50px 150px ;
+    padding: 150px 150px 100px 150px ;
 }
 
 .widget-main {
@@ -333,4 +333,164 @@ margin-top: 10px;
     font-size: 20px;
     margin-left: 35%;
     margin-top: 80px;
+}
+
+.talk {
+    background-color: rgb(238, 225, 255);
+    padding: 35px 330px 35px 696px;
+    background-image: url(./img/talk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  background-position-x: 10% ;
+  
+  position: relative;
+  
+   
+}
+
+
+
+
+
+.talk-main {
+    
+    
+   display: grid;
+
+}
+
+.talk-main__title {
+    font-family: DM Sans;
+font-size: 34px;
+font-weight: 700;
+line-height: 44.27px;
+text-align: left;
+
+
+
+}
+
+.talk-main__desc {
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 23.44px;
+text-align: left;
+
+
+}
+
+.talk-main__click {
+    margin-top: 21px;
+}
+
+.talk-main__button {
+
+    font-family: DM Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 23.44px;
+text-align: center;
+padding: 18px 90px;
+background-color: rgb(245, 22, 126);
+border: none;
+border-radius: 30px;
+color: white;
+
+
+}
+
+
+/* 4 СЕКЦИЯ */
+
+.brands {
+    padding: 132px 160px 150px 160px ;
+}
+
+.brands-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+   
+
+
+}
+
+.brands-text__title {
+    color: rgb(36, 37, 101);
+font-family: Proxima Nova;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.brands-text__desc {
+    color: rgb(106, 106, 106);
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+width: 613px;
+align-self: center;
+
+
+}
+
+.media-icon {
+    margin-top: 64px;
+}
+
+.media-icon__onestring {
+    display: flex;
+   
+   column-gap: 45px;
+   justify-content: center;
+}
+
+.media-icon__twostring {
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+.media-icon__img {
+    width: 150px;
+    height: 70px;
+    
+
+}
+
+.media-icon__img1 {
+    margin-left: 220px;
+    width: 150px;
+    height: 70px;
+    
+
+}
+
+.media-icon__img2 {
+
+    width: 150px;
+    height: 70px;
+     margin-left: 80px; 
+}
+
+.media-icon__img3 {
+    width: 150px;
+    height: 70px;
+    
+    margin-left: 40px;
+    
+}
+.media-icon__img4 {
+    margin-left: 50px;
+    width: 150px;
+    height: 70px;
+    
+    
 }
